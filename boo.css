@@ -1,0 +1,635 @@
+header{
+   
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+
+.textis{
+    line-height: 27px !important;
+}
+.custom-img {
+    width: 600px;
+    margin-top: 90px;
+    margin-left: -80px;  /* Move image to the left by 50px */
+    /* width: auto; */
+}
+
+.needtochng{
+    line-height: 27px !important;
+}
+
+
+.hei{
+    /* line-height: 39px !important; */
+    padding-left: 50px;
+}
+
+.heis{
+    line-height: 59px;
+    color: white;
+}
+
+.increase{
+    line-height: 32px !important;
+}
+
+.botn{
+    margin-top: 40px;
+   
+}
+
+.next-tick {
+    margin-right: 50px;
+}
+
+.downtick{
+    margin-top: 50px;
+}
+
+/* .label{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    border-radius: 10px; */
+/* } */
+
+
+.checked{
+    color: orange;
+}
+
+
+
+.testimonial-card{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.testimonial-card p{
+    line-height: 17px;
+}
+
+
+.justcolor{
+    /* margin-top: 20px; */
+    padding: 90px;
+    padding-left: 100px;
+}
+
+
+.space{
+   
+    margin-top: 120px;
+    text-align: center;
+
+}
+
+.justcolors{
+    padding: 70px;
+
+}
+
+.justcolors h4{
+    color: white;
+}
+.justcolor h1 {
+    color: white;
+}
+
+.space i {
+    color: white;
+}
+
+
+
+
+
+.customize-img{
+
+    margin-top: 97px;
+    /* width: 600px; */
+    padding: 60px;
+
+}
+
+
+.textbot{
+ 
+    margin-top: 97px;
+    color: green;
+
+}
+
+
+.textiss{
+    line-height: 27px !important;
+}
+
+
+.textis{
+    line-height: 37px;
+    margin-top: 30px;
+}
+
+.moving{
+    line-height: 27px;
+}
+
+
+
+
+.fromtop{
+    /* margin-top: 20px; */
+}
+
+.fromthevalue{
+    margin-top: 70px;
+    color: white;
+}
+
+.mikey{
+    color: white;
+    background-color: rgb(5, 63, 5);
+}
+
+.botnn a{
+    color: white;
+}
+
+.someamount{
+    width: 50%;
+}
+
+.mikey{
+   
+   
+    border-radius: 10px;
+   
+}
+
+.someamount{
+    border-radius: 10px;
+}
+
+.mike{
+    color: green;
+   padding-top: 150px;
+}
+
+.customie-img {
+    width: 90%; 
+    height: auto; 
+}
+
+
+.customie-img {
+    margin-top: 100px;
+
+}
+
+.fromthe{
+    padding-left: 50px;
+}
+
+
+.movingright{
+    padding-left: 50px;
+}
+
+.mybtn4{
+    margin-left: 50px;
+}
+
+.downtick{
+    padding-left: 50px;
+}
+
+.fromthe{
+    margin-top: 30px;
+}
+
+
+
+@media (max-width: 767px) {
+    .whattest {
+        padding-left: 1rem !important;
+        padding-top: 39px !important;
+        margin-top: 42px !important;
+    }
+    .whattest .testimonial-card {
+        padding-left: 1rem !important; 
+    }
+    .whattest .row {
+        flex-direction: column !important; 
+    }
+    .whattest .mikey {
+        padding: 1rem !important; 
+    }
+    .whattest img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .nav {
+       
+       justify-content: start !important;
+       
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .needspace {
+       padding-left: 0px !important;
+       padding-top: 5px !important;
+       
+    }
+}
+
+
+@media (max-width: 767px) {
+    .newcount {
+       
+       padding: 17px !important;
+       
+    }
+}
+
+@media (max-width: 767px) {
+    .alig {
+       
+       margin-top: -26px !important;
+       
+    }
+}
+
+@media (max-width: 767px) {
+    .testing {
+       
+       margin-top: 50px !important;
+       
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .needto {
+       
+       padding-left: 37px !important;
+       
+    }
+}
+
+
+@media (max-width: 767px) {
+    .conten {
+       
+       margin-top: 36px !important;
+       
+    }
+}
+
+@media (max-width: 767px) {
+    .justcolor {
+       
+       padding: 66px !important;
+       padding-left: 45px !important;
+       
+    }
+}
+
+
+@media (max-width: 767px) {
+    .mike {
+       
+       margin-top: -76px;
+       
+    }
+}
+
+@media (max-width: 767px) {
+    .spaces {
+       
+       margin-top: 76px !important;
+       
+    }
+}
+
+@media (max-width: 767px) {
+    .customie-img {
+       
+       margin-top: 32px;
+       
+    }
+}
+
+@media (max-width: 767px) {
+    .soamount {
+       margin-top: 20px;
+       
+        /* margin-left: 20px;
+        margin-right: 20px; */
+    }
+}
+
+
+@media (max-width: 767px) {
+    .somamount {
+       margin-top: 20px;
+       
+        /* margin-left: 20px;
+        margin-right: 20px; */
+    }
+}
+
+
+@media (max-width: 767px) {
+    .whattest {
+       
+        padding-left: 1rem !important;
+        padding-top: 0px;
+        margin-top: 0px;
+        /* margin-left: 20px;
+        margin-right: 20px; */
+    }
+}
+
+@media (max-width: 767px) {
+    .mybtn5 {
+       
+       
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .textis {
+       
+       
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .forward {
+       
+       
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .textbot {
+        margin-top: 36px;
+        color: green;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .customize-img {
+        
+        margin-top: 44px;
+        padding: 34px;
+        /* margin-left: -34px; */
+    }
+}
+
+
+@media (max-width: 767px) {
+    .space {
+        
+        margin-top: 84px;
+        /* margin-left: -34px; */
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-img {
+        
+        margin-top: 60px;
+        margin-left: -34px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .downtick {
+        /* margin-left: 1rem !important; */
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+}
+
+
+@media (max-width: 767px) {
+    .mybtn4 {
+        margin-left: 5rem !important;
+        padding-right: 20px; 
+    }
+}
+
+@media (max-width: 767px) {
+    .fromthe {
+        padding-left: 1rem !important;
+        padding-right: 20px; 
+        /* margin-top: 25px; */
+    }
+}
+
+@media (max-width: 767px) {
+    .movingright {
+        padding-left: 1rem !important;
+        padding-right: 20px; 
+    }
+}
+
+
+@media (max-width: 767px) {
+    .hei {
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+}
+
+  
+
+.spaces{
+    background-color: green;
+    /* margin: 0 -70px; */
+    margin-top: 120px;
+   
+}
+
+
+.alig{
+    margin-top: 80px;
+    color: white;
+}
+
+.alignment{
+    color: #f9f9f9;
+}
+
+.botnnn a{
+    background-color: #f9f9f9;
+}
+
+.conten{
+    margin-top: 80px;
+}
+
+.new{
+    padding-top: 10px;
+}
+
+
+span h2 {
+    display: inline; 
+    /* margin: 0;  */
+}
+
+span {
+    display: inline; 
+}
+
+span h1{
+    display: inline; 
+}
+span h4 {
+    display: inline; 
+    /* margin: 0;  */
+}
+
+.testing{
+    margin-top: 100px;
+   
+}
+
+
+.mybtn5 {
+    border-radius: 1.6rem;
+    padding: 10px;
+  
+    background-color: green;
+}
+
+
+.mybtn4 {
+    border-radius: 35px;
+    border: 1px solid green;
+    padding: 10px;
+  
+    background-color: green;
+}
+
+.mybtn2 {
+    border-radius: 35px;
+    border: 1px solid green;
+    padding: 10px;
+  
+    background-color: green;
+}
+
+/* .mybtn3 {
+    border-radius: 1.6rem;
+    padding: 10px;
+  
+    background-color: rgb(3, 23, 3);
+} */
+
+
+.needspace{
+    padding-top: 90px;
+    padding-left: 70px;
+}
+
+.manybox{
+    padding-bottom: 130px;
+}
+
+@media (max-width: 767px) {
+    .manybox {
+        padding-bottom: 54px;
+    }
+}
+
+
+.rounded-btn {
+    border-radius: 50px; /* Makes the button rounded */
+    padding: 10px 20px;  /* Add some padding to make it more clickable */
+}
+.lastcont{
+    background-color: rgba(4, 49, 4, 0.98);
+    /* padding: 70px; */
+    /* padding-left: 90px; */
+    
+}
+
+.newcount{
+    padding: 90px;
+}
+
+.atlastcont{
+    background-color:  rgba(2, 42, 2, 0.98);
+   /* padding-bottom: 80px; */
+   padding: 30px;
+   padding-bottom: 90px;
+}
+.needto{
+    padding-left: 80px;
+}
+
+.needto p{
+    line-height: 37px;
+}
+.social-icons span {
+    color: white;
+    margin-right: 15px; 
+    
+   
+}
+
+.social-icons{
+    margin-top: 50px;
+}
+
+
+.justcolor{
+   color: white;
+}
+
+.whattest{
+    margin-top: 100px;
+   
+}
+
+
+.whattest{
+    padding-left: 80px;
+    padding-top: 110px;
+    padding-right: 15px;
+}
+
+
+.customs-img{
+    width: 330px;
+    margin-top: 80px;
+    /* /* margin-left: -80px; */
+}
