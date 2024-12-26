@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+
+.execute_head{
+    margin-top: 12px;
+    margin-bottom: 0px !important;
+    font-family: Assistant;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0099a7;
+}
+
+.meet_delta{
+    margin-top: 30px;
+    font-family: Assistant;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0b304f;
+}
+
+.chief_execut_off{
+    margin-top: 30px;
+}
+
+.financila_offi{
+    font-family: Assistant;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0b304f;
+}
+
+
+
+.Managemne_back{
+font-family: Assistant;
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+
+.headshot_img{
+    width: 300px;
+  height: 265px;
+  margin: 0 0 12px;
+  border-radius: 5px;
+  margin-top: 23px;
+}
+
+.chief_execut_off{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media(min-width:0px) and (max-width: 768px) { 
+
+    .flas_director{
+        margin-left: 44px;
+        margin-right: 48px;
+        align-items: center;
+        margin-top: 32px;
+    }
+
+    .meet_delta{
+        text-align: center;
+    }
+  }

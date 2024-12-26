@@ -1,0 +1,136 @@
+<?php
+/**
+ * Template Name: Software  Template
+ */
+get_header(); ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Connect</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/wp-content/themes/astra/about/software.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <div class="soft-main">
+        <div class="soft-head">
+            <span class="soft-title">Software</span>
+        </div>
+        <div class="container">
+            <?php
+            // Including breadcrumb if it exists
+            $breadcrumb_path = get_template_directory() . '/breadcrum.php';
+            if (file_exists($breadcrumb_path)) {
+                include($breadcrumb_path); // Include the breadcrumb file
+            } else {
+                echo 'Breadcrumb file does not exist at: ' . $breadcrumb_path; // Error message if the file is not found
+            }
+            ?>
+        </div>
+        <div class="container">
+            <span class="soft-head1">In-Transit Loggers</span>
+            <!-- accordion-start part1 -->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!-- accordion part1 -->
+                <div class=" accor-part1 accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <span class="soft-accor1"> <b class="soft-accor-inside1">FlashLink Configurator Software -
+                                    Free </b><br>PC desktop software to preprogram loggers with custom configurations
+                                prior to activation and shipping. </span>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+                            libero voluptate excepturi est ab iste, sit sunt? Laudantium, asperiores distinctio!</div>
+                    </div>
+                </div>
+                <!-- accordion part2 -->
+                <div class=" accor-part2 accordion-item">
+                    <h2 class="accordion-header" id="flush-headingtwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsetwo" aria-expanded="false" aria-controls="flush-collapsetwo">
+                            <span class="soft-accor2"> <b class="soft-accor-inside2">FlashLink Configurator Software -
+                                    Free </b><br>PC desktop software to preprogram loggers with custom configurations
+                                prior to activation and shipping. </span>
+                        </button>
+                    </h2>
+                    <div id="flush-collapsetwo" class="accordion-collapse collapse" aria-labelledby="flush-headingtwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+                            libero voluptate excepturi est ab iste, sit sunt? Laudantium, asperiores distinctio!</div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="soft-head2">Reusable Data Loggers / Certified Vaccine Data Loggers</span>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!-- accordion-part3 -->
+                <div class=" accor-part3 accordion-item">
+                    <h2 class="accordion-header" id="flush-headingthree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
+                            <span class="soft-accor3"> <b class="soft-accor-inside3">FlashLink Program Manager</b><br>Software for programming and downloading the FlashLink USB Reusable Data Loggers (Software License Required)</span>
+                        </button>
+                    </h2>
+                    <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+                            libero voluptate excepturi est ab iste, sit sunt? Laudantium, asperiores distinctio!</div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="soft-head3">Wireless Systems</span>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!-- accordion-part4 -->
+                <div class=" accor-part4 accordion-item">
+                    <h2 class="accordion-header" id="flush-headingfour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                            <span class="soft-accor4"> <b class="soft-accor-inside4">FlashLink Wireless Manager</b><br>PC software for use with PN 20121 thru 20159</span>
+                        </button>
+                    </h2>
+                    <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+                            libero voluptate excepturi est ab iste, sit sunt? Laudantium, asperiores distinctio!</div>
+                    </div>
+                </div>
+                <!-- accordion-part5 -->
+                <div class=" accor-part5 accordion-item">
+                    <h2 class="accordion-header" id="flush-headingfive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+                            <span class="soft-accor5"> <b class="soft-accor-inside5">FlashLink Wireless SP Module</b><br>PC software that extends the capability of the FlashLink Wireless Manager and allows network and remote data base access</span>
+                        </button>
+                    </h2>
+                    <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+                            libero voluptate excepturi est ab iste, sit sunt? Laudantium, asperiores distinctio!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+<?php get_footer(); ?>

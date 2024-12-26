@@ -1,0 +1,140 @@
+<?php
+// single-blog.php 
+get_header('custom');
+?>
+
+<head>
+  <meta charset="<?php bloginfo('charset'); ?>">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/blog Detail Page/sass/style.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/blog Detail Page/sass/variables.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <?php wp_head(); ?>
+</head>
+
+<div class="site-container">
+  <div class="site-banner1 d-flex flex-column justify-content-center align-items-center text-center">
+    <div class="container">
+      <h1 class="banner-title2">Blogs</h1>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <?php
+    $breadcrumb_path = get_template_directory() . '/breadcrum.php';
+    if (file_exists($breadcrumb_path)) {
+      include($breadcrumb_path);
+    } else {
+      echo 'Breadcrumb file does not exist at: ' . $breadcrumb_path;
+    }
+    ?>
+  </div>
+
+  <div class="blog-container1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 blog-border">
+          <?php
+          $custom_title = get_field('custom_title');
+          if ($custom_title): ?>
+            <h3 class="blog-title1">
+              <?php echo wp_kses_post($custom_title); ?>
+            </h3>
+          <?php endif; ?>
+          <div class="blog-meta1">
+            <?php
+            $custom_tags = get_field('custom_tags');
+            if ($custom_tags): ?>
+              <?php foreach ($custom_tags as $tag): ?>
+                <a href="<?php echo esc_url(add_query_arg('filter_tag', $tag, get_post_type_archive_link('blog'))); ?>"
+                  class="badge blog-tag">
+                  <?php echo esc_html($tag); ?>
+                </a>
+              <?php endforeach; ?>
+            <?php endif; ?>
+          </div>
+
+
+          <div>
+            <?php
+            $featured_image = get_field('featured_image');
+            if ($featured_image): ?>
+              <img src="<?php echo esc_url($featured_image['url']); ?>" class="img-fluid banner-img"
+                alt="Icon description">
+            <?php endif; ?>
+          </div>
+          <div class="bdetail-content">
+            <?php
+            $detail_page = get_field('detail_page');
+            if ($detail_page) {
+              echo wp_kses_post($detail_page);
+            }
+            ?>
+          </div>
+          <div class="blog-post mb-4">
+            <div class="row author-image">
+              <div class="col-md-2 detail-author">
+                <?php
+                $author_image = get_field('author_image');
+                if ($author_image): ?>
+                  <img src="<?php echo esc_url($author_image['url']); ?>" class="img-fluid blog-image" alt="Author">
+                <?php endif; ?>
+              </div>
+              <div class="col-md-10 detail-acontent">
+                <?php
+                $author_name = get_field('author_name');
+                if ($author_name): ?>
+                  <h3 class="b-title">
+                    <a href="#" class="bdetail-title"><?php echo wp_kses_post($author_name); ?></a>
+                  </h3>
+                <?php endif; ?>
+                <?php
+                $author_des = get_field('author_des');
+                if ($author_des): ?>
+                  <p class="detail-blogcontent1">
+                    <?php echo wp_kses_post($author_des); ?>
+                  </p>
+                <?php endif; ?>
+              </div>
+            </div>
+          </div>
+        </div>
+ <aside class="col-lg-4 categories-section">
+            <div class="categories">
+              <h3>Categories</h3>
+              <ul class="list-unstyled categories-list">
+                <?php
+                // Fetch categories associated with the 'blog_category' taxonomy
+                $categories = get_terms([
+                  'taxonomy' => 'blog_category',
+                  'hide_empty' => true, // Only categories that have posts
+                ]);
+
+                if ($categories && !is_wp_error($categories)):
+                  foreach ($categories as $category):
+                    echo '<li><a href="' . esc_url(get_term_link($category)) . '">' . esc_html($category->name) . '</a></li>';
+                  endforeach;
+                else:
+                  echo '<li>No categories found.</li>';
+                endif;
+                ?>
+              </ul>
+            </div>
+          </aside>
+ 
+ 
+      </div>
+    </div>
+  </div>
+  <?php
+  // Include the reusable carousel code
+  include get_template_directory() . '/testimonial-carousel.php';
+
+  // Call the function and pass the testimonial IDs
+  render_testimonial_carousel(array(660, 658, 656, 654, 648, 640, 638, 630));
+  ?>
+</div>
+
+<?php get_footer(); ?>

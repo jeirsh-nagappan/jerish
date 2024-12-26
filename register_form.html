@@ -1,0 +1,332 @@
+<div class="main-form">
+
+    <!-- Product Information Section -->
+
+    
+    <div class="product-heading">
+      <h2 class="product_infor">Product Information</h2>
+
+      <div class="pro_ser">
+      <div class="product-model">
+        <label> <span class="model_cls">Product Model No.</span><span class="required">*</span>
+          [text* modelno autocomplete:no]
+        </label>
+      </div>
+
+  
+      
+      <div class="serial-number">
+        <label><span class="model_cls">Serial Number</span><span class="required"></span>
+          [text* serialno autocomplete:off]
+        </label>
+      </div>
+    </div>
+
+
+  <div class="pur_from">
+      <div class="purchased-date">
+        <label> <span class="model_cls">Purchased Date</span><span class="required">*</span>
+          [text* purchasedfrom autocomplete:off]
+        </label>
+      </div>
+  
+      <div class="purchased-from">
+        <label><span class="model_cls">Purchased from</span><span class="required">*</span>
+          [text* purchaseddate autocomplete:off]
+        </label>
+      </div>
+    </div>
+    </div>
+  
+    <!-- Company Information Section -->
+
+
+
+    <div class="company-heading">
+      <h2 class="company_cls">Company Information</h2>
+      <div class="company">
+        <label><span class="model_cls">Company</span><span class="required">*</span>
+          [text* company autocomplete:off]
+        </label>
+      </div>
+
+
+      <div class="naming_row">
+  
+      <div class="first-name">
+        <label><span class="model_cls">First Name</span><span class="required">*</span>
+          [text* firstname autocomplete:given-name]
+        </label>
+      </div>
+  
+      <div class="last-name">
+        <label><span class="model_cls">Last Name</span><span class="required">*</span>
+          [text* lastname autocomplete:family-name]
+        </label>
+      </div>
+    </div>
+  
+
+    <div class="addresing_row">
+      <div class="address-first">
+        <label> <span class="model_cls">Address1</span><span class="required">*</span>
+          [text* address1 autocomplete:street-address]
+        </label>
+      </div>
+  
+      <div class="address-second">
+        <label><span class="model_cls">Address2</span>
+          [text address2 autocomplete:street-address]
+        </label>
+      </div>
+    </div>
+
+
+    <div class="stat_city">
+  
+      <div class="city">
+        <label><span class="model_cls">City</span><span class="required">*</span>
+          [text* city autocomplete:locality]
+        </label>
+      </div>
+  
+      <div class="state">
+        <label><span class="model_cls">State/Province</span><span class="required">*</span>
+          [text* state autocomplete:region]
+        </label>
+      </div>
+    </div>
+
+
+    <div class="countr_cls">
+  
+      <div class="country">
+        <label> <span class="model_cls">Country</span><span class="required">*</span>
+          [text* country autocomplete:country]
+        </label>
+      </div>
+  
+      <div class="zip-code">
+        <label><span class="model_cls">Zip Code</span>
+          [text zipcode autocomplete:postal-code]
+        </label>
+      </div>
+    </div>
+
+
+    <div class="email_cls">
+  
+      <div class="email">
+        <label><span class="model_cls">Email</span><span class="required">*</span>
+          [email* your-email autocomplete:email]
+        </label>
+      </div>
+  
+      <div class="work-phone">
+        <label><span class="model_cls">Work Phone</span><span class="required">*</span>
+          [text* workphone autocomplete:tel]
+        </label>
+      </div>
+    </div>
+  
+    </div>
+  
+    <!-- Submit Button -->
+    <div class="submit_btn">
+        <button class ="btn_submit">Submit</button>
+     
+    </div>
+  
+  </div>
+
+
+
+  <style>
+    .product_infor{
+        font-family: Assistant;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #0099a7;
+    }
+
+    .pur_from{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+    }
+
+    .pro_ser{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+  
+  background-color: #fff;
+    }
+
+    .company_cls{
+        font-family: Assistant;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.38;
+        letter-spacing: normal;
+        color: #0099a7;
+    }
+
+    .naming_row{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+ 
+  background-color: #fff;
+    }
+
+    .addresing_row{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;border-radius: 2px;
+       
+        background-color: #fff;
+    }
+
+    .stat_city{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+ 
+  background-color: #fff;
+    }
+
+    .countr_cls{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+  
+  background-color: #fff;
+    }
+
+    .email_cls{
+         display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+  
+  background-color: #fff;
+    }
+
+
+.model_cls{
+    font-family: Assistant;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+
+    @media (max-width: 768px) {
+        .main-form {
+          width: 100%;
+          height: auto;
+        }
+      
+        .email_cls-row, .countr_cls-row, .stat_city, .addresing_row, .naming_row , .pro_ser {
+          flex-direction: column; 
+        }
+    }      
+
+
+
+
+
+
+
+    .product_infor {
+        font-family: Assistant;
+        font-size: 16px;
+        font-weight: bold;
+        color: #0099a7;
+      }
+      
+      .pro_ser, .naming_row, .addresing_row, .stat_city, .countr_cls, .email_cls , .pur_from {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+       
+        background-color: #fff;
+      }
+      
+      .company_cls {
+        font-family: Assistant;
+        font-size: 16px;
+        font-weight: bold;
+        color: #0099a7;
+      }
+      
+      .model_cls {
+        font-family: Assistant;
+        font-size: 14px;
+        font-weight: 600;
+        color: #000;
+      }
+      
+      .first-name, .last-name {
+        flex: 1;
+      }
+      
+      .address-first, .address-second, .city, .state, .country, .zip-code, .email, .work-phone {
+        flex: 1;
+      }
+      
+      .submit_btn {
+        margin-top: 20px;
+      }
+      
+      
+      
+      
+      
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        .main-form {
+          width: 100%;
+          padding: 10px;
+        }
+      
+        .pro_ser, .naming_row, .addresing_row, .stat_city, .countr_cls, .email_cls {
+          flex-direction: column; /* Stack elements vertically on smaller screens */
+        }
+      
+        .first-name, .last-name,
+        .address-first, .address-second,
+        .city, .state, .country, .zip-code, .email, .work-phone {
+          flex: none; /* Reset the flex to default for vertical stacking */
+        }
+      }
+
+  </style>
+
+
+
+
+
+
+
+
+
+  

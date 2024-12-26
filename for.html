@@ -1,0 +1,213 @@
+<div class="main-form">
+
+    <!-- Company Information Section -->
+    <div class="Register-heading">
+      <h2>Register</h2>
+  
+      <!-- Company Field -->
+      <div class="company">
+        <label><span class="new_company">Company</span><span class="required">*</span>
+          [text* company autocomplete:off]
+        </label>
+      </div>
+  
+     
+      <div class="name-row">
+        <div class="first_name">
+          <label><span class="new_company">First Name</span><span class="required">*</span>
+            [text* firstname autocomplete:given-name]
+          </label>
+        </div>
+  
+        <div class="last_name">
+          <label><span class="new_company">Last Name</span><span class="required">*</span>
+            [text* lastname autocomplete:family-name]
+          </label>
+        </div>
+      </div>
+  
+     
+      <div class="address-row">
+      <div class="address_first">
+        <label> <span class="new_company">Address1</span><span class="required">*</span>
+          [text* address1 autocomplete:street-address]
+        </label>
+      </div>
+  
+      <div class="address_second">
+        <label><span class="new_company">Address2</span>
+          [text address2 autocomplete:street-address]
+        </label>
+      </div>
+    </div>
+
+
+
+    <div class="city-row">
+      <div class="city_loc">
+        <label><span class="new_company">City</span><span class="required">*</span>
+          [text* city autocomplete:locality]
+        </label>
+      </div>
+  
+      <div class="state_cls">
+        <label> <span class="new_company">State/Province</span><span class="required">*</span>
+          [text* state autocomplete:region]
+        </label>
+      </div>
+    </div>
+
+
+    <div class="country-row">
+  
+      <div class="country_cls">
+        <label> <span class="new_company">Country</span><span class="required">*</span>
+          [text* country autocomplete:country]
+        </label>
+      </div>
+  
+      <div class="zip_code">
+        <label><span class="new_company">Zip Code</span>
+          [text zipcode autocomplete:postal-code]
+        </label>
+      </div>
+    </div>
+  
+     
+  <div class="cate-row">
+      <div class="category_phone">
+        <label> <span class="new_company">What category of product will be recycled</span><span class="required">*</span>
+          [text* workphone autocomplete:tel]
+        </label>
+      </div>
+  
+      <div class="quantity_phone">
+        <label><span class="new_company">Quantity to be recycled</span>Quantity to be recycled<span class="required">*</span>
+          [text* workphone autocomplete:tel]
+        </label>
+      </div>
+    </div>
+    </div>
+  
+    <!-- Submit Button -->
+    <div class="submit">
+        <button>Submit</button>
+      [submit "Submit"]
+    </div>
+  
+  </div>
+
+  <style>
+    /* Apply styles to all form fields */
+.main-form input[type="text"],
+.main-form input[type="email"],
+.main-form select {
+  width: 335px;
+  height: 30px;
+  margin: 10px 0 0;
+  border-radius: 2px;
+  border: solid 1px #d1d1d1;
+  background-color: #fff;
+  padding: 5px; 
+  font-size: 14px;
+}
+
+.new_company{
+    font-family: Assistant;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.main-form textarea {
+  width: 335px;
+  height: 30px;
+  margin: 10px 0 0;
+  border-radius: 2px;
+  border: solid 1px #d1d1d1;
+  background-color: #fff;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.category_phone ,.first_name , .last_name , .address_first , .company, .quantity_phone ,.zip_code , .country_cls , .state_cls , .city_loc , .address_second{
+    width: 297px;
+    font-family: Assistant;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.main-form label {
+  font-size: 14px;
+  color: white; 
+  margin-bottom: 5px;
+}
+
+.submit_btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-form input[type="submit"] {
+  width: 335px;
+  height: 40px;
+  margin: 10px 0;
+  border-radius: 2px;
+  border: solid 1px #d1d1d1;
+  background-color: #4CAF50; 
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.main-form input[type="submit"]:hover {
+  background-color: #45a049; 
+}
+
+
+.name-row, .address-row, .city-row, .country-row, .cate-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+
+.name-row .first_name, .name-row .last_name,
+.address-row .address_first, .address-row .address_second,
+.city-row .city_loc, .city-row .state_cls,
+.country-row .country_cls, .country-row .zip_code,
+.cate-row .category_phone, .cate-row .quantity_phone {
+  flex: 1; 
+}
+
+
+@media (max-width: 768px) {
+  .main-form {
+    width: 100%;
+    height: auto;
+  }
+
+  .name-row, .address-row, .city-row, .country-row, .cate-row {
+    flex-direction: column; 
+  }
+
+  .main-form input[type="text"], .main-form input[type="email"], .main-form select, .main-form textarea {
+    width: 100%; 
+  }
+}
+
+  </style>
